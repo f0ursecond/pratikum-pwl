@@ -2,8 +2,8 @@
 
 class Mahasiswa
 {
-    private $nim, $nama;
-    public $matkul;
+    private $nim, $matkul;
+    public $nama;
 
     public function setData($nim, $nama, $matkul)
     {

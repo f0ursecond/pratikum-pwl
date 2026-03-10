@@ -3,7 +3,7 @@
 class Mahasiswa
 {
     private $nim, $nama, $matkul, $tgl_lahir;
-    public $umur;
+    private $umur;
 
     public function setData($nim, $nama, $matkul, $tgl_lahir)
     {
